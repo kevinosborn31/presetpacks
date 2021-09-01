@@ -1,0 +1,150 @@
+body {
+    font-family: sans-serif;
+}
+.page-container {
+    margin: auto 10%;
+}
+
+h2 {
+    text-align: center;
+} 
+
+h3 {
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+}
+.listing {
+    list-style: none;
+    margin: 2em;
+    display: grid;
+    gap: 80px;
+    grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+    padding-top: 50px;
+  }
+  .listing li {
+    border: 1px solid #ebeef2;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 24px !important;
+    padding: 20px 40px 40px 40px;
+  }
+
+  .product-name {
+      font-size: 1.5rem;
+  }
+  .listing li:hover {
+    background-color: #9846dd;
+    color: white !important;
+  }
+
+  .product-name {
+    text-align: left;
+    color: black;
+  }
+
+  .price {
+      text-align: left;
+      color: black;
+  }
+
+  .listing li:hover p {
+      color: white !important;
+  }
+
+  .listing li:hover .per-pack {
+      color: white !important;
+  }
+
+  .per-pack {
+      color: gray;
+  }
+  .listing .cta {
+    margin-top: auto;
+    padding: 10px;
+    text-align: center;
+  }
+
+  img {
+      width: 100%;
+      height: 100%;
+      border-radius: 24px !important;
+      object-fit: cover;
+  }
+
+  .qty {
+      border: 1px solid lightgrey;
+      border-radius: 5px;
+      color: grey !important;
+      font-size: 0.8rem;
+      width: 50%;
+      margin-left: 0;
+  }
+
+a {
+    text-decoration: none !important;
+}
+  
+/* body {
+    background-color: #f6f6f6;
+}
+
+.page-container {
+    margin: auto;
+    width: 1200px;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    padding: 6px;
+    width: 30%;
+    height: 300px;
+  }
+
+  .product-cell {
+      flex-direction: column;
+  }
+
+  .product-cell-content a {
+      text-decoration: none;
+      height: 100% !important;
+  }
+
+.product-cell-content:hover {
+      background-color: purple;
+      color: white;
+  } 
+
+  .product-image {
+    background-color: red;
+  }
+
+  .product-qty {
+      background-color: green;
+  }
+
+  .product-info {
+      background-color: purple;
+  }
+
+  .product-cell-content {
+      border: solid 1px #ebeef2;
+      height: 100% !important;
+  }
+
+  .product-image img {
+    width: 228px;
+    height: 228px;
+  } *\
+ 
