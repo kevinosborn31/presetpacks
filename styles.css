@@ -4,7 +4,7 @@ body {
 }
 
 .container {
-    border: .5px solid black;
+    /* border: .5px solid black; */
 }
 
 .product-container {
@@ -25,9 +25,12 @@ body {
 
 .product-image {
     height: 80%;
-    background-image: url("http://www.fillmurray.com/800/800");
     background-repeat: no-repeat;
     background-position: center;
+}
+
+.product-image img {
+    margin: 25px;
 }
 
 .bold {
@@ -151,6 +154,9 @@ h3 {
 a {
     text-decoration: none !important;
 }
+.description {
+    max-width: 75%;
+}
 
 @media screen and (max-width: 500px) {
     .listing {
@@ -175,6 +181,28 @@ a {
     
     .product-container {
         flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .product-image-container {
+        width: 100%;
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    
+    .info-container {
+        width: 100%;
+        height: 100%;
+        padding: 20px;
+        max-width: 100%;
+        flex-basis: 100%;
+    }
+    .variant-images {
+        height: 5vh;
+    }
+    .product-image {
+        height: 50vh;
     }
 }
   
