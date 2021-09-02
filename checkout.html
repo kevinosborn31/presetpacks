@@ -5,11 +5,36 @@
         <title>Checkout</title>
         <meta name="viewport" content="width=device-width,initial-scale=1">
         <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="form.css">
     </head> 
 
 <body>
     <div class="page-container">
-    
+        <div class="order-info"> 
+            <form class="checkout-form">
+                <h1>1. Order Request Information</h1>
+                <label for="quantity">How many swag packs are you looking to get?*</label>
+                <input class="fw" type="number" name="quantity" id="quantity">
+                <label for="budget">What's your budget per swag pack/person?*</label>
+                <input class="hw" type="number" name="budget" id="budget">
+                <label for="date">Do you need these by a certain date?</label>
+                <input class="hw" type="text" name="date" id="date">
+                <label for="comments">Any items we missed or comments you'd like to add?</label>
+                <input class="fw" type="text" name="comments" id="comments">
+                <button>Continue</button>
+                <h1>2. Contact Details</h1>
+                <label for="name">Your full name</label>
+                <input class="hw" type="text" placeholder="Jane Doe" name="name" id="name">
+                <label for="email">Work email address*</label>
+                <input class="hw" type="email" placeholder="example@company.com" name="email" id="email">
+                <label for="company">What's the name of your company?</label>
+                <input class="hw" type="text" placeholder="My Company" name="company" id="company">
+                <label for="phone">Contact phone number</label>
+                <input class="hw" type="tel" placeholder="Enter phone number" name="phone" id="phone">
+                <button type="submit">Sumit Request</button>
+            </form>
+            <p>You will receive proofs and a quote after finalizing the order</p>
+        </div>
     </div>
 </body>
 </html>
