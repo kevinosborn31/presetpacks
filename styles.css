@@ -7,6 +7,13 @@ body {
     /* border: .5px solid black; */
 }
 
+.variant-image {
+    float: left;
+    list-style-type:none;
+    width: 25%;
+    padding-left: 60px;
+}
+
 .product-container {
     display: flex;
     margin-top: 10vh;
@@ -27,10 +34,6 @@ body {
     height: 80%;
     background-repeat: no-repeat;
     background-position: center;
-}
-
-.product-image img {
-    margin: 25px;
 }
 
 .bold {
@@ -181,6 +184,9 @@ a {
     
     .product-container {
         flex-direction: column;
+    }
+    .variant-image {
+        padding-left: 60px;
     }
 }
 
