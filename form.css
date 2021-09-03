@@ -10,3 +10,10 @@
 .checkout-form {
     max-width: 800px;
 }
+
+.form-input {
+    border-radius: 32px;
+    border: 1px solid gray;
+    padding: 19px 30px;
+    background-color: #fff;
+}

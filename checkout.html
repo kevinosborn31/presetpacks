@@ -12,26 +12,68 @@
     <div class="page-container">
         <div class="order-info"> 
             <form class="checkout-form">
+
                 <h1>1. Order Request Information</h1>
-                <label for="quantity">How many swag packs are you looking to get?*</label>
-                <input class="fw" type="number" name="quantity" id="quantity">
-                <label for="budget">What's your budget per swag pack/person?*</label>
-                <input class="hw" type="number" name="budget" id="budget">
-                <label for="date">Do you need these by a certain date?</label>
-                <input class="hw" type="text" name="date" id="date">
-                <label for="comments">Any items we missed or comments you'd like to add?</label>
-                <input class="fw" type="text" name="comments" id="comments">
-                <button>Continue</button>
+                <div class="field-group">
+                    <p class="fw">How many swag packs are you looking to get?*</p>
+                    <div class="form-input">
+                        <input class="fw" type="number" name="quantity" id="quantity">
+                    </div>
+                </div>
+                <div class="field-group">
+                    <p class="hw">What's your budget per swag pack/person?*</p>
+                    <div class="form-input">
+                        <input class="hw" type="number" name="budget" id="budget">
+                    </div>
+                </div>
+
+                <div class="field-group">
+                    <p class="hw">Do you need these by a certain date?</p>
+                    <div class="form-input">
+                        <input class="hw" type="text" name="date" id="date">
+                    </div>
+                </div>
+
+                <div class="field-group">
+                    <p class="fw">Any items we missed or comments you'd like to add?</p>
+                    <div class="form-input">
+                        <input class="fw" type="text" name="comments" id="comments">
+                    </div>
+                </div>
+
+                    <button>Continue</button>
+
                 <h1>2. Contact Details</h1>
-                <label for="name">Your full name</label>
-                <input class="hw" type="text" placeholder="Jane Doe" name="name" id="name">
-                <label for="email">Work email address*</label>
-                <input class="hw" type="email" placeholder="example@company.com" name="email" id="email">
-                <label for="company">What's the name of your company?</label>
-                <input class="hw" type="text" placeholder="My Company" name="company" id="company">
-                <label for="phone">Contact phone number</label>
-                <input class="hw" type="tel" placeholder="Enter phone number" name="phone" id="phone">
-                <button type="submit">Sumit Request</button>
+
+                <div class="field-group">
+                    <p class="hw">Your full name</p>
+                    <div class="form-input">
+                        <input class="hw" type="text" placeholder="Jane Doe" name="name" id="name">
+                    </div>
+                </div>
+
+                <div class="field-group">
+                    <p class="hw">Work email address*</p>
+                    <div class="form-input">
+                        <input class="hw" type="email" placeholder="example@company.com" name="email" id="email">
+                    </div>
+                </div>
+
+                <div class="field-group">
+                    <p class="hw">What's the name of your company?</p>
+                    <div class="form-input">
+                        <input class="hw" type="text" placeholder="My Company" name="company" id="company">
+                    </div>
+                </div>
+
+                <div class="field-group">
+                    <p class="hw">Contact phone number</p>
+                    <div class="form-input">
+                        <input class="hw" type="tel" placeholder="Enter phone number" name="phone" id="phone">
+                    </div>
+                </div>
+
+                <button type="submit">Submit Request</button>
             </form>
             <p>You will receive proofs and a quote after finalizing the order</p>
         </div>
