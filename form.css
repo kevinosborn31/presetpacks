@@ -1,6 +1,6 @@
 .hw {
-    width: 50%;
-    max-width: 50%;
+    width: 48%;
+    max-width: 48%;
 }
 
 .fw {
@@ -11,9 +11,10 @@
     max-width: 800px;
 }
 
-.form-input {
+.form-input input {
     border-radius: 32px;
     border: 1px solid gray;
     padding: 19px 30px;
     background-color: #fff;
+    width: 100%;
 }
