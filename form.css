@@ -1,6 +1,7 @@
 .hw {
     width: 48%;
     max-width: 48%;
+    display: inline-block;
 }
 
 .fw {
@@ -16,5 +17,9 @@
     border: 1px solid gray;
     padding: 19px 30px;
     background-color: #fff;
-    width: 100%;
+    width: 80%;
+}
+
+.fw .form-input input {
+    width: 87%;
 }
