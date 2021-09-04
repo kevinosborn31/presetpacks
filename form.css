@@ -23,3 +23,12 @@
 .fw .form-input input {
     width: 87%;
 }
+
+.field-group {
+    padding-top: 10px;
+}
+
+.continue-button {
+    margin: 30px 0;
+}
+
