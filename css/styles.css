@@ -19,6 +19,38 @@ body {
     margin-left: 24px;
 }
 
+.custom-pack-category-list {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    list-style: none;
+    position: relative;
+}
+
+.custom-pack-category-list-item {
+    padding-left: 20px;
+    width: 100%;
+    display: flex;
+    position: relative;
+    box-sizing: border-box;
+    text-align: left;
+    align-items: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    justify-content: flex-start;
+    text-decoration: none;
+    width: 100%;
+}
+
+.custom-pack-category-list-item p {
+    color: rgb(15, 36, 64);
+    opacity: 0.5;
+    font-weight: 400;
+}
+
+.custom-pack-category-list-item:hover {
+    background-color: rgba(0, 0, 0, 0.04);
+    cursor: pointer;
+}
 
 .variant-image {
     float: left;
