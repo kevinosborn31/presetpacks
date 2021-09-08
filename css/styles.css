@@ -28,7 +28,7 @@ body {
     margin: auto 10%;
 }
 
-.custom-pack-container {
+.custom-packs-container {
     margin: auto 20%;
 }
 
@@ -154,6 +154,15 @@ h3 {
       color: white !important;
   }
 
+  .custom-pack-text {
+      width: 60%;
+  }
+
+  .custom-pack-add {
+      width: 25%;
+      display: inline;
+  }
+
   .per-pack {
       color: gray;
   }
@@ -166,6 +175,15 @@ h3 {
     margin-top: auto;
     padding: 10px;
     text-align: left;
+    display: flex;
+  }
+
+  .custom-pack-add {
+      text-align: right;
+  }
+
+  .custom-pack-add p {
+    margin-top: 50%;
   }
   .disclaimer {
       text-align: center;
