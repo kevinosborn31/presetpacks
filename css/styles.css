@@ -109,11 +109,10 @@ h3 {
   }
   .custom-packs-listing {
     list-style: none;
-    margin: 2em;
+    margin: 4em;
     display: grid;
-    gap: 80px;
+    gap: 40px;
     grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
-    padding-top: 50px;
   }
 
   .custom-packs-listing li {
