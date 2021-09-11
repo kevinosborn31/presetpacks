@@ -274,9 +274,49 @@ h3 {
     padding-bottom: 12px;
     right: 0;
     left: auto;
-    background-color: lightblue;
     position: fixed;
     top: 0;
+}
+
+.quantity-wrapper {
+    gap: 6px;
+    width: 100%;
+    display: flex;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+
+.custom-packs-quantity p {
+    line-height: 32px;
+}
+
+.custom-packs-price {
+    display: flex;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.custom-packs-total {
+    margin: 12px;
+    display: flex;
+}
+
+.custom-packs-cart-continue {
+    display: flex;
+    min-height: 84px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
+.custom-packs-cart-continue button {
+    margin-top: auto;
+    width: 100%;
+}
+
+.custom-packs-cart-info {
+    font-size: 11px;
+    text-align: center;
+    margin: 12px;
 }
 
 .custom-packs-cart h2 {
