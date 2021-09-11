@@ -4,11 +4,16 @@ body {
 }
 
 .custom-pack-categories {
-    top: 66px;
+    top: 0px;
     width: 200px;
     position: fixed;
     bottom: 0;
     height: auto;
+    border-right: 1px solid black;
+}
+
+.custom-pack-categories hr {
+    margin-right: 45px;
 }
 
 .custom-pack-categories h2 {
@@ -16,7 +21,8 @@ body {
     font-size: 14px;
     margin-top: 36px;
     line-height: normal;
-    margin-left: 24px;
+    margin-left: 20px;
+    text-align: left;
 }
 
 .custom-pack-category-list {
@@ -24,6 +30,7 @@ body {
     padding-bottom: 8px;
     list-style: none;
     position: relative;
+    padding-left: 0px;
 }
 
 .custom-pack-category-list-item {
@@ -78,7 +85,7 @@ body {
 }
 
 .custom-packs-container {
-    margin: auto 20%;
+    margin: auto 15%;
 }
 
 .variant-images {
