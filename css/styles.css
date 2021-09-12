@@ -12,8 +12,48 @@ body {
     border-right: 1px solid black;
 }
 
+.cart-remove {
+    top: 50%;
+    right: 16px;
+    position: absolute;
+}
+
+.cart-remove button {
+    margin-right: 3px;
+    padding: 3px;
+    font-size: 1.125rem;
+    flex: 0 0 auto;
+    overflow: visible;
+    border-radius: 50%;
+    text-align: center;
+}
+
 .custom-packs-cart-contents ul {
     list-style-type: none;
+}
+
+.custom-packs-cart-contents {
+    padding: 0px;
+}
+
+.cart-item-details {
+    font-size: 10px;
+    line-height: 1.3;
+}
+
+.cart-item-name {
+    margin: 0;
+    flex: 1 1 auto;
+}
+
+.cart-item-name {
+    color: #434D5C;
+    overflow: hidden;
+    font-size: 14px;
+    line-height: normal;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    display: block;
 }
 
 .custom-pack-categories hr {
